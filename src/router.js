@@ -1,7 +1,7 @@
 import Vue from 'vue'
 // import VueRouter from 'vue-router'
 // import VueRouter from '../vue-router/index.js'
-import VueRouter from '../vue-router/vue-router.mini.js'
+import VueRouter from '../vue-router-mini/index.js'
 import Foo from './pages/foo.vue'
 import Bar from './pages/bar.vue'
 Vue.use(VueRouter)
