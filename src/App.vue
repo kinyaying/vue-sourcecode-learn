@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    mian
+    <router-link to="/bar">关于</router-link> |
+    <router-link to="/foo">其他</router-link>
     <router-view/>
   </div>
 </template>
@@ -10,6 +11,9 @@
 export default {
   name: 'App',
   components: {
+  },
+  beforeCreate(){
+    console.log(this.$router)
   }
 }
 </script>
